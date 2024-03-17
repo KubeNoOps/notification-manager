@@ -18,8 +18,8 @@ on:
       - 'LICENSE'
       - 'CHANGELOG.md'
 env:
-  OP_IMAGE: kubesphere/notification-manager-operator:latest
-  NM_IMAGE: kubesphere/notification-manager:latest
+  OP_IMAGE: ghcr.io/kubenoops/notification-manager-operator:latest
+  NM_IMAGE: ghcr.io/kubenoops/notification-manager:latest
 
 jobs:
   test:
